@@ -1,0 +1,35 @@
+
+body {
+    display: block;
+    line-height: 1;
+    background-image: url("/img/bg-stars.png");
+    background-size: cover;
+  }
+
+.glow {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    background-image: url("/img/bg-glow.png");
+    background-size: cover;
+}
+  
+.aboutUs {
+display: flex;
+justify-content: center;
+}
+
+#img {
+    width: 200px;
+padding: 20px;
+border-radius: 50%;
+}
+
+.card {
+    align-items: center;
+}
+
+h1,h2,p {
+    text-align:  center;
+    color: white;
+}

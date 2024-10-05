@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title dir="ltr">3D CSS Near Earth Asteroids</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/Earth.css">
+</head>
+
+<body class="opening hide-UI view-2D zoom-large data-close controls-close">
+  <div id="navbar">
+    <h1> <a id="Earth" href="index.html">Solar System </a></h1>
+    <h1> <a id="Earth"  href="Earth.html">Earth</a></h1>
+    <h1> <a id="Earth"  href="AboutUs.html">About Us</a></h1>
+  </div>
+  <div id="data">
+    
+
+    <a class="mars" title="mars" href="#marsspeed">Comets</a>
+    <a class="jupiter" title="jupiter" href="#jupiterspeed">Moon</a>
+    <a class="saturn" title="saturn" href="#saturnspeed">ISS</a>
+    <a class="uranus" title="uranus" href="#uranusspeed">Apophis</a>
+    <a class="neptune" title="neptune" href="#neptunespeed">Eros</a>
+  </div>
+  <div id="controls">
+    <label class="set-view">
+      <input type="checkbox">
+    </label>
+    <label class="set-zoom">
+      <input type="checkbox">
+    </label>
+  </div>
+  <div id="universe" class="scale-stretched">
+    <div id="galaxy">
+      <div id="solar-system" class="mars">
+
+        <div id="mars" class="orbit">
+          <div class="pos">
+            <div class="planet">
+              <dl class="infos">
+                <dt>Comets</dt>
+                <dd><span></span></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div id="jupiter" class="orbit">
+          <div class="pos">
+            <div class="planet">
+              <dl class="infos">
+                <dt>Moon</dt>
+                <dd><span></span></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div id="saturn" class="orbit">
+          <div class="pos">
+            <div class="planet">
+              <dl class="infos">
+                <dt>ISS</dt>
+                <dd><span></span></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div id="uranus" class="orbit">
+          <div class="pos">
+            <div class="planet">
+              <dl class="infos">
+                <dt>Apophis</dt>
+                <dd><span></span></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div id="neptune" class="orbit">
+          <div class="pos">
+            <div class="planet">
+              <dl class="infos">
+                <dt>Eros</dt>
+                <dd><span></span></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div id="sun">
+          <dl class="infos">
+            <dt>Sun</dt>
+            <dd><span></span></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img class="AIrobot" src="img/Earth/Robo1.png" alt="AI Robot">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    if (typeof jQuery == 'undefined') {
+      document.write(unescape("%3Cscript src='js/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+  </script>
+  <script src="js/prefixfree.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
